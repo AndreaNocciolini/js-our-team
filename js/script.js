@@ -33,3 +33,9 @@ const team = [
 
 // Ogni membro ha le informazioni necessarie per stampare la relativa card: Nome, Ruolo e Foto.
 // Prendendo come riferimento la card di esempio presente nell’html, stampiamo dinamicamente una card per ogni membro del team.
+
+const userName = document.getElementById(`name`);
+const role =  document.getElementById(`role`);
+const image =  document.getElementById(`image`);
+
+console.log(userName, role, image)
