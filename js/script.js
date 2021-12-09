@@ -37,5 +37,6 @@ const team = [
 const userName = document.getElementById(`name`);
 const role =  document.getElementById(`role`);
 const image =  document.getElementById(`image`);
+const button = document.getElementById(`addMemberButton`);
 
-console.log(userName, role, image)
+console.log(userName, role, image, button)
