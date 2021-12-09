@@ -30,3 +30,6 @@ const team = [
     image: 'barbara-ramos-graphic-designer.jpg',
   },
 ];
+
+// Ogni membro ha le informazioni necessarie per stampare la relativa card: Nome, Ruolo e Foto.
+// Prendendo come riferimento la card di esempio presente nell’html, stampiamo dinamicamente una card per ogni membro del team.
