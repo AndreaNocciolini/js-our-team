@@ -42,6 +42,23 @@ const button = document.getElementById(`addMemberButton`);
 
 console.log(userNameInput, roleInput, imageInput, button)
 
+for (let i = 1; i < team.length; i++) {
+  const element = team[i];
+  const templateDiv = `
+  <div class="team-card">
+    <div class="card-image">
+      <img src="img/${element.image}" alt="${element.name}"
+      />
+    </div>
+    <div class="card-text">
+      <h3>${element.name}</h3>
+      <p>${element.role}</p>
+    </div>
+  </div>   
+`
+  teamContainer.innerHTML += templateDiv;
+}
+
 button.addEventListener(`click`, function(){
   const userName = userNameInput.value;
   const role = roleInput.value;
